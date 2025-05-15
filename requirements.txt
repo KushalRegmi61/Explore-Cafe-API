@@ -1,0 +1,8 @@
+fastapi[standard]==0.110.0       # Web framework + optional packages like pydantic, httpx, jinja2, etc.
+uvicorn==0.29.0                  # ASGI server to run FastAPI
+pydantic==2.7.1                  # Data validation and parsing (matches what FastAPI uses)
+python-dotenv==1.0.1             # Load environment variables from .env
+asyncpg==0.29.0                  # Async PostgreSQL driver
+pytest==8.2.0                    # Testing framework
+pytest-asyncio==0.23.6           # Support for async def tests in pytest
+pydantic-settings==2.9.1         # Pydantic settings management
