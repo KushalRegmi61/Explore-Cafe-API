@@ -93,7 +93,7 @@ docker-compose up --build
 
 * API: [http://localhost:8000/cafes](http://localhost:8000/cafes)
 * Docs: [http://localhost:8000/docs](http://localhost:8000/docs)
-* Docker-Hub Repo []()
+* Docker-Hub Repo [KushalRegmi61/explorecafe-api-web](http://localhost:8000/docs)
 
 ---
 
@@ -102,19 +102,17 @@ docker-compose up --build
 * All environment variables are managed in `.env`
 * The `app/main.py` file handles FastAPI initialization and DB table creation
 * PostgreSQL is managed via Docker Compose as a backing service
-* Tables are created at runtime using SQLAlchemy's metadata
 
 ###  Example `.env` file
 
 ```env
-DB_USER=postgres
-DB_PASSWORD=postgres
-DB_NAME=cafe_db
-DB_HOST=db
-DB_PORT=5432
-
-FASTAPI_HOST=0.0.0.0
-FASTAPI_PORT=8000
+DB_USER=Your username
+DB_PASSWORD=Your password
+DB_NAME=database name
+DB_HOST=host name
+DB_PORT=your port name
+FASTAPI_HOST= your port name
+FASTAPI_PORT= your port name
 ```
 
 ---
@@ -148,7 +146,7 @@ pytest
 
 | Description      | Link                                                       |
 | ---------------- | ---------------------------------------------------------- |
-|   API Demo       | *Coming soon or self-hosted*                               |
+|   API Demo       | [Watch Video](https://github.com/KushalRegmi61/Explore-Cafe-API/blob/master/results/pytest-output.png)                               |
 |  Pytest Output   | [Output](https://github.com/KushalRegmi61/Explore-Cafe-API/blob/master/results/pytest-output.png)               |
 
 
