@@ -29,11 +29,13 @@ This project applies the [12-Factor App methodology](https://12factor.net/) with
 | **5. Build, Release, Run** | Separate build (`Dockerfile`), release (`docker-compose`), and run phases; image pushed to Docker Hub        |
 | **6. Port Binding**        | FastAPI binds to port `8000`, PostgreSQL to `5432`                                                           |
 
+* Docker-Hub Repo [KushalRegmi61/explore-cafe-api](https://hub.docker.com/repository/docker/kushalregmi61/explore-cafe-api/general)
+
 ---
 
 ##  Tech Stack
 
-*  Python 3.11+
+*  Python 3.10
 *  FastAPI
 *  PostgreSQL
 *  asyncpg 
@@ -93,7 +95,7 @@ docker-compose up --build
 
 * API: [http://localhost:8000/cafes](http://localhost:8000/cafes)
 * Docs: [http://localhost:8000/docs](http://localhost:8000/docs)
-* Docker-Hub Repo [KushalRegmi61/explorecafe-api-web](http://localhost:8000/docs)
+* Docker-Hub Repo [KushalRegmi61/explore-cafe-api](https://hub.docker.com/repository/docker/kushalregmi61/explore-cafe-api/general)
 
 ---
 
@@ -146,7 +148,7 @@ pytest
 
 | Description      | Link                                                       |
 | ---------------- | ---------------------------------------------------------- |
-|   API Demo       | [Watch Video](https://github.com/KushalRegmi61/Explore-Cafe-API/blob/master/results/pytest-output.png)                               |
+|   API Demo       | [Watch Video](https://drive.google.com/file/d/12Rfox7l-J8KAyAY97Aqz1AjG2V8ZSnuf/view?usp=sharing)                               |
 |  Pytest Output   | [Output](https://github.com/KushalRegmi61/Explore-Cafe-API/blob/master/results/pytest-output.png)               |
 
 
